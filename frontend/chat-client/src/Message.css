@@ -1,0 +1,22 @@
+.message {
+    display: flex;
+    margin: 5px 0;
+  }
+  
+  .own-message {
+    justify-content: flex-end;
+  }
+  
+  .message-bubble {
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 60%;
+    background-color: #e0e0e0;
+    position: relative;
+  }
+  
+  .own-message .message-bubble {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
